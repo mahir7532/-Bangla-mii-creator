@@ -1,51 +1,51 @@
-# Mii Creator App
+# Mii Creator অ্যাপ
 
 ![Preview image](public/assets/images/preview_dark.png)
 
-Create and share Mii characters online with just a few clicks!
+মাত্র কয়েকটি ক্লিকেই অনলাইনে Mii অক্ষর তৈরি এবং শেয়ার করুন!
 
-## Credits
+## ক্রেডিট
 
-- Uses a locally hosted version of the [mii-unsecure.ariankordi.net](https://mii-unsecure.ariankordi.net) [API](https://github.com/ariankordi/FFL-Testing/tree/renderer-server-prototype) by [ariankordi](https://github.com/ariankordi) used to generate 3D Mii heads and icons.
-  - A [fork](https://github.com/datkat21/FFL-Testing-with-hats) is used that adds hat support.
-- [mii-js](https://github.com/PretendoNetwork/mii-js) library used for interacting with Mii data in a JavaScript-friendly way
-- [Some utility code](https://github.com/datkat21/mii-creator/tree/master/src/external/mii-frontend) "borrowed" from arian's website for conversion, QR codes, etc.
-- Custom Mii Maker music by [objecty](https://x.com/objecty)
+- [ariankordi](https://github.com/ariankordi/FFL-Testing/tree/renderer-server-prototype) এর স্থানীয়ভাবে হোস্ট করা সংস্করণ ব্যবহার করে যা [ariankordi](https://github.com/ariankordi) দ্বারা 3D Mii হেড এবং আইকন তৈরি করতে ব্যবহৃত হয়।
+- একটি [fork](https://github.com/datkat21/FFL-Testing-with-hats) ব্যবহার করা হয় যা হ্যাট সাপোর্ট যোগ করে।
+- [mii-js](https://github.com/PretendoNetwork/mii-js) লাইব্রেরি যা জাভাস্ক্রিপ্ট-বান্ধব উপায়ে Mii ডেটার সাথে ইন্টারঅ্যাক্ট করার জন্য ব্যবহৃত হয়
+- [কিছু ইউটিলিটি কোড](https://github.com/datkat21/mii-creator/tree/master/src/external/mii-frontend) রূপান্তর, QR কোড ইত্যাদির জন্য আরিয়ানের ওয়েবসাইট থেকে "ধার করা"।
+- [objecty](https://x.com/objecty) দ্বারা কাস্টম Mii মেকার সঙ্গীত
 
-## Features
+## বৈশিষ্ট্য
 
-This app uses a custom, extended version of the FFSD Mii format that I call the MiiCreator format (.miic), allowing for extra colors and glasses from the Switch, while still allowing you to convert back to FFSD for 3DS/Wii U.
+এই অ্যাপটি FFSD Mii ফর্ম্যাটের একটি কাস্টম, বর্ধিত সংস্করণ ব্যবহার করে যা আমি MiiCreator ফর্ম্যাট (.miic) বলি, যা সুইচ থেকে অতিরিক্ত রঙ এবং চশমা ব্যবহারের অনুমতি দেয়, একই সাথে আপনাকে 3DS/Wii U এর জন্য FFSD তে রূপান্তর করার অনুমতি দেয়।
 
-- [x] Real 3D rendering unlike Mii Studio
-- [x] Change parts and colors of the Mii
-- [x] Save and load Miis in your library
-- [x] Save a Mii QR code
-- [x] Render to PNG file
-- [x] Save/load .FFSD/.miic
-- [x] Create your own renders inside the app
-- [x] Custom hats (for fun!)
+- [x] Mii স্টুডিওর বিপরীতে বাস্তব 3D রেন্ডারিং
+- [x] Mii এর অংশ এবং রঙ পরিবর্তন করুন
+- [x] আপনার লাইব্রেরিতে Miis সংরক্ষণ করুন এবং লোড করুন
+- [x] একটি Mii QR কোড সংরক্ষণ করুন
+- [x] PNG ফাইলে রেন্ডার করুন
+- [x] .FFSD/.miic সংরক্ষণ/লোড করুন
+- [x] অ্যাপের ভিতরে আপনার নিজস্ব রেন্ডার তৈরি করুন
+- [x] কাস্টম টুপি (মজাদার জন্য!)
 
-## Contributing
+## অবদান
 
-I'm open to contributions if you want to help on the project!
+আপনি যদি প্রকল্পে সাহায্য করতে চান তবে আমি অবদানের জন্য উন্মুক্ত!
 
-## Model Credits
+## মডেল ক্রেডিট
 
-Some of the custom hat models are provided by the Models Resource:
+কিছু কাস্টম হ্যাট মডেল মডেল রিসোর্স দ্বারা সরবরাহ করা হয়েছে:
 
-- [Top Hat](https://www.models-resource.com/nintendo_switch/supersmashbrosultimate/model/30314/)
-- [Ribbon & Bow](https://www.models-resource.com/3ds/nintendogscats/model/30239/)
+- [টপ হ্যাট](https://www.models-resource.com/nintendo_switch/supersmashbrosultimate/model/30314/)
+- [রিবন এবং ধনুক](https://www.models-resource.com/3ds/nintendogscats/model/30239/)
 
-Thanks to [Timimimi](https://github.com/Timiimiimii) for creating the new hat models:
+নতুন হ্যাট মডেল তৈরি করার জন্য [Timimimi](https://github.com/Timimimii) কে ধন্যবাদ:
 
-- Cat Ears
-- Straw Hat
-- Hijab
-- Bike Helmet
+- বিড়ালের কান
+- খড়ের টুপি
+- হিজাব
+- বাইক হেলমেট
 
-## Setting up development
+## ডেভেলপমেন্ট সেট আপ করা
 
-1. Make sure you have [Bun](https://bun.sh/) installed on your device. This is used for compiling all of the TypeScript code into JavaScript for the client.
-2. Clone this repository, and run the `bun i` command to install dependencies.
-3. In one terminal, run `bun build-ts` (if this doesn't work, try running `bun build.ts` to run the file), and in another, run `bun run serve`. If that doesn't work, try `bunx serve -l 3000 -C ./public`. (There is also an optional Go server if you want to use that over the bun server. Both seem to have a strange issue on Windows where you have to wait 5 seconds before you are allowed to refresh the page..)
-4. Any changes you make should log in the build-ts terminal, and check the server on the second terminal to find the port. Live server is not advised when using my build script because it sometimes can refresh too much.
+1. নিশ্চিত করুন যে আপনার ডিভাইসে [Bun](https://bun.sh/) ইনস্টল করা আছে। এটি ক্লায়েন্টের জন্য জাভাস্ক্রিপ্টে সমস্ত টাইপস্ক্রিপ্ট কোড কম্পাইল করার জন্য ব্যবহৃত হয়।
+2. এই রিপোজিটরিটি ক্লোন করুন, এবং নির্ভরতা ইনস্টল করার জন্য `bun i` কমান্ডটি চালান।
+৩. একটি টার্মিনালে, `bun build-ts` চালান (যদি এটি কাজ না করে, তাহলে ফাইলটি চালানোর জন্য `bun build.ts` চালানোর চেষ্টা করুন), এবং অন্যটিতে, `bun run serve` চালান। যদি এটি কাজ না করে, তাহলে `bunx serve -l 3000 -C ./public` চেষ্টা করুন। (আপনি যদি এটি বান সার্ভারের উপর ব্যবহার করতে চান তবে একটি ঐচ্ছিক Go সার্ভারও রয়েছে। উইন্ডোজে উভয়েরই একটি অদ্ভুত সমস্যা রয়েছে বলে মনে হচ্ছে যেখানে পৃষ্ঠাটি রিফ্রেশ করার অনুমতি পাওয়ার আগে আপনাকে ৫ সেকেন্ড অপেক্ষা করতে হবে..)
+৪. আপনার যেকোনো পরিবর্তনের জন্য build-ts টার্মিনালে লগ ইন করা উচিত এবং পোর্টটি খুঁজে পেতে দ্বিতীয় টার্মিনালে সার্ভারটি পরীক্ষা করা উচিত। আমার বিল্ড স্ক্রিপ্ট ব্যবহার করার সময় লাইভ সার্ভারের পরামর্শ দেওয়া হয় না কারণ এটি কখনও কখনও খুব বেশি রিফ্রেশ করতে পারে।
